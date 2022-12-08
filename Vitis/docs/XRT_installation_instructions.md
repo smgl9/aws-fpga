@@ -44,7 +44,7 @@ The Default AFI loaded is a regular `Hello World` AFI that provides the Device I
 # Centos/RHEL build and install steps
 
 ```bash
-XRT_RELEASE_TAG=2019.2.0.3 # Substitute XRT_RELEASE_TAG=<TAG from above table>
+XRT_RELEASE_TAG=202210.2.13.466 # Substitute XRT_RELEASE_TAG=<TAG from above table>
 
 git clone https://github.com/aws/aws-fpga.git
 
