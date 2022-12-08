@@ -58,7 +58,8 @@ cd ${XRT_PATH}
 sudo ./src/runtime_src/tools/scripts/xrtdeps.sh
 
 cd build
-scl enable devtoolset-6 bash
+scl enable devtoolset-9 bash
+source aws-fpga/hdk_setup.sh
 ./build.sh
 
 cd Release
